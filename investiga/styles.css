@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0056a3;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start;
+    justify-content: flex-start; 
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.title-container h1, .title-container h2 {
+    margin: 0;
+    width: 100%;
+}
+
+.logo img {
+    max-width: 100px;
+    margin-right: 20px; 
+}
+
+
+header h1, header h2, nav, .language-selector {
+    margin-left: 20px; 
+}
+
+.left-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header h1, header h2 {
+    margin: 5px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.language-selector {
+    margin-top: 10px;
+}
+
+.language-selector a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.research {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.research-container {
+    display: flex;
+    gap: 20px;
+}
+
+.left-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-panel {
+    flex: 3;
+}
+
+.section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+    margin-top: 0;
+    color: #0056a3;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin: 10px 0;
+}
+
+.section ul li a {
+    color: #0056a3;
+    text-decoration: none;
+}
+
+.section ul li a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #0056a3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #004080;
+}
+
+.summary, .contributors, .content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.summary h3, .contributors h3, .content h3 {
+    margin-top: 0;
+    color: #0056a3;
+}
+
+.contributor {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #0056a3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004080;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+footer .contact a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 5px 0;
+}
